@@ -7,7 +7,7 @@ cask "fieldade-home-base" do
   desc "Home base for the FieldADE app: runs Claude and Grok on your Mac for your phone"
   homepage "https://embry.dev"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "FieldADE Home Base.app"
 

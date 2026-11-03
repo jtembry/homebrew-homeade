@@ -1,15 +1,15 @@
 cask "fieldade-home-base" do
-  version "0.1.0"
-  sha256 "b7fb4e494173418ba25077502ab1352e58b8f1592609ee4b2d0ddca6647dadb3"
+  version "0.2.0"
+  sha256 "07c690091a62b5155e187783d61e6be074c49deca7d3376f702cddca68a74908"
 
-  url "https://downloads.embry.dev/HomeBase-#{version}.dmg"
-  name "HomeBase"
+  url "https://downloads.embry.dev/HomeADE-#{version}.dmg"
+  name "HomeADE"
   desc "Runs Claude and Grok on your Mac for the FieldADE app on your phone"
   homepage "https://embry.dev"
 
   depends_on macos: :sonoma
 
-  app "HomeBase.app"
+  app "HomeADE.app"
 
   zap trash: [
     "~/Library/Application Support/Field Agent Home Base",

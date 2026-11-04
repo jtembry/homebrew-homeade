@@ -1,6 +1,6 @@
 cask "fieldade-home-base" do
-  version "0.2.0"
-  sha256 "07c690091a62b5155e187783d61e6be074c49deca7d3376f702cddca68a74908"
+  version "0.3.0"
+  sha256 "2b5e1325406152b38a89ba2aaa2f5be8b85b4e72d288e782433b7e599ac4440b"
 
   url "https://downloads.embry.dev/HomeADE-#{version}.dmg"
   name "HomeADE"

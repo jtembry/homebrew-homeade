@@ -1,6 +1,6 @@
 cask "homeade" do
-  version "0.3.0"
-  sha256 "2b5e1325406152b38a89ba2aaa2f5be8b85b4e72d288e782433b7e599ac4440b"
+  version "0.4.0"
+  sha256 "7a1c026ffdab2a3ee3f3fad6b22b177a520a023cbc2931f93c2115f351a3125c"
 
   url "https://downloads.embry.dev/HomeADE-#{version}.dmg"
   name "HomeADE"
